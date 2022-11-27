@@ -45,6 +45,7 @@ $$  \  /$$//$$$$$$  |$$ |  $$ |      $$ |      /$$$$$$  |/$$$$$$  |$$$$$$$$/
     $$/     $$$$$$/   $$$$$$/        $$$$$$$$/  $$$$$$/   $$$$$$/  $$$$$$$$/ ''')
     print()
 
+
 def curstatus():               #Displays Current status of man
     global fails
 
@@ -188,13 +189,12 @@ def main():
     L.pop()                     #Removes "\n" from list
     for i in L:
         LG.append(' _ ')
-    print(L)
-    print(LG)
+    print()
 
 
     print("Looking for a nice word...")                       #Just For Show
     time.sleep(2)
-    input("GOT THE WORD ! PRESS ENTER TO START !\n")
+    input("GOT THE WORD ! PRESS ENTER TO START !")
 
     while True:
         os.system('cls')
