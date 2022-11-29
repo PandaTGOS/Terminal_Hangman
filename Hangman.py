@@ -53,7 +53,6 @@ def curstatus():               #Displays Current status of man
         print("")
 
     elif fails==1:
-        print("|---------     ")
         print("|              ")
         print("|              ")
         print("|              ")
@@ -65,14 +64,15 @@ def curstatus():               #Displays Current status of man
         print("|              ")
         print("|              ")
         print("|              ")
-
+        print("|              ")
+    
     elif fails==2:
         print("|---------     ")
         print("|              ")
         print("|              ")
-        print("|        __    ")
-        print("|       |  |   ")
-        print("|        --    ")
+        print("|              ")
+        print("|              ")
+        print("|              ")
         print("|              ")
         print("|              ")
         print("|              ")
@@ -87,8 +87,8 @@ def curstatus():               #Displays Current status of man
         print("|        __    ")
         print("|       |  |   ")
         print("|        --    ")
-        print("|         |    ")
-        print("|         |    ")
+        print("|              ")
+        print("|              ")
         print("|              ")
         print("|              ")
         print("|              ")
@@ -100,8 +100,8 @@ def curstatus():               #Displays Current status of man
         print("|              ")
         print("|        __    ")
         print("|       |  |   ")
-        print("|      \ --    ")
-        print("|       \ |    ")
+        print("|        --    ")
+        print("|         |    ")
         print("|         |    ")
         print("|              ")
         print("|              ")
@@ -114,8 +114,8 @@ def curstatus():               #Displays Current status of man
         print("|              ")
         print("|        __    ")
         print("|       |  |   ")
-        print("|      \ --  / ")
-        print("|       \ | /  ")
+        print("|      \ --    ")
+        print("|       \ |    ")
         print("|         |    ")
         print("|              ")
         print("|              ")
@@ -131,8 +131,8 @@ def curstatus():               #Displays Current status of man
         print("|      \ --  / ")
         print("|       \ | /  ")
         print("|         |    ")
-        print("|        /     ")
-        print("|       /      ")
+        print("|              ")
+        print("|              ")
         print("|              ")
         print("|              ")
 
@@ -145,12 +145,26 @@ def curstatus():               #Displays Current status of man
         print("|      \ --  / ")
         print("|       \ | /  ")
         print("|         |    ")
+        print("|        /     ")
+        print("|       /      ")
+        print("|              ")
+        print("|              ")
+
+    elif fails==8:
+        print("|---------     ")
+        print("|              ")
+        print("|              ")
+        print("|        __    ")
+        print("|       |  |   ")
+        print("|      \ --  / ")
+        print("|       \ | /  ")
+        print("|         |    ")
         print("|        / \   ")
         print("|       /   \  ")
         print("|              ")
         print("|              ")
 
-    elif fails==8:
+    elif fails==9:
         print("|---------     ")
         print("|        |     ")
         print("|        |     ")
@@ -163,6 +177,21 @@ def curstatus():               #Displays Current status of man
         print("|       /   \  ")
         print("|              ")
         print("|              ")
+    
+    elif fails==10:
+        print("|---------     ")
+        print("|        |     ")
+        print("|        |     ")
+        print("|        __    ")
+        print("|       |  |   ")
+        print("|      \ --  / ")
+        print("|       \ | /  ")
+        print("|         |    ")
+        print("|        / \   ")
+        print("|       /   \  ")
+        print("|              ")
+        print("|              ")
+        print("\nLAST CHANCE !!!")
 
 def wordstatus():
     global LG
@@ -207,7 +236,7 @@ def main():
         print()
 
 
-        if fails==8:                                         #CHECKING IF GAME SHOULD GO ON OR NOT
+        if fails==10:                                         #CHECKING IF GAME SHOULD GO ON OR NOT
             lose()
             print("GAME OVER")
             print("YOU KILLED AN INNOCENT MAN !\n")
@@ -223,7 +252,6 @@ def main():
             print("YOU GOT THE WORD !")
             print("THE WORD IS:-")
             wordstatus()
-
             break
 
 
