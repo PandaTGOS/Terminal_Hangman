@@ -177,6 +177,7 @@ def curstatus():               #Displays Current status of man
         print("|       /   \  ")
         print("|              ")
         print("|              ")
+        print("\nLAST CHANCE !!!")
     
     elif fails==10:
         print("|---------     ")
@@ -191,7 +192,7 @@ def curstatus():               #Displays Current status of man
         print("|       /   \  ")
         print("|              ")
         print("|              ")
-        print("\nLAST CHANCE !!!")
+
 
 def wordstatus():
     global LG
