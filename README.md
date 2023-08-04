@@ -1,3 +1,4 @@
 # Terminal_Hangman
-A simple, basic Hangman project in python. 
-Run this on your terminal or on VS Code for a seamless experience
+A basic Hangman project in python.
+Made this just for fun. It runs smoothly, with a simplistic yet seamless interface.
+Run this on your terminal or on VS Code for a seamless experience.
